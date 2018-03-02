@@ -33,7 +33,7 @@
       //window.history.go(-1);
     ?>
 
-    <br /><br /><a href="index.php"><button>Back</button></a>
+    <br><br><a href="index.php"><button>Back</button></a>
   </main>
 
 </body>

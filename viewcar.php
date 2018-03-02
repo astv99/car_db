@@ -12,7 +12,7 @@
         // successful; do nothing
       }
       else {
-        echo "Error getting vehicle with VIN: $vin ".mysql_error()."<br />";
+        echo "Error getting vehicle with VIN: $vin ".mysql_error()."<br>";
       }
 
       while ($result_arr = mysqli_fetch_assoc($result)) {

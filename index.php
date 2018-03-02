@@ -13,10 +13,10 @@
         // MySQL query successful; do nothing
       }
       else {
-        echo "Error getting cars from the database: ".mysqli_error($mysqli)."<br />";
+        echo "Error getting cars from the database: ".mysqli_error($mysqli)."<br>";
       }
 
-      echo "<table id='grid'><tr>";
+      echo "<table id='cars'><tr>";
       echo "<th>&nbsp;Year</th>";
       echo "<th>&nbsp;Make</th>";
       echo "<th>&nbsp;Model</th>";
